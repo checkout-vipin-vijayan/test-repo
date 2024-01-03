@@ -5,14 +5,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.home {
-    min-height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(res/images/Sewing_machine.jpg) ;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-}
 
 nav {
     display: flex;
@@ -57,6 +49,15 @@ nav img{
 
 .nav-links ul li:hover::after{
     width:100%;
+}
+
+.home {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(res/images/Sewing_machine.jpg) ;
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
 
 .home-text{
@@ -191,7 +192,7 @@ nav .material-symbols-outlined{
 }
 
 .layer:hover{
-   background:  rgba(226,0,0,0.7);
+   background:  rgba(0,0,0,0.7);
 }
 
 .layer h3{
@@ -211,6 +212,62 @@ nav .material-symbols-outlined{
     bottom: 49%;
     opacity: 1; 
  }
+
+ .contactUs{
+    margin: 100px auto;
+    min-height: 60vh;
+    width: 80%;
+    background-image:  linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(res/images/pexels-1416530.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+ }
+
+ .contactUs h1{
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+ }
+
+ .contactUS-col{
+    flex-basis: 31%;
+    background:#fff3f3 ;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing:  border-box;
+    opacity: 0.5;
+    transition: 0.5s;
+    margin: 10px;
+    color: black;
+}
+
+
+.contactMI {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+    color:#777;
+    font-size: 40px;
+  }
+
+.contact-href {
+    text-decoration: none;
+}
+
+i.fa {
+    text-decoration: none;
+    color:#777;
+}
+
+
+a{
+    text-decoration: none;
+}
 
 @media(max-width:700px){
     .home-text h1{
@@ -249,3 +306,5 @@ nav .material-symbols-outlined{
         flex-direction: column;
     }
 }
+
+
