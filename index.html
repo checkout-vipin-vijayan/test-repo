@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+        <title>Persona Fashion</title>
+    </head>
+    <body>
+        <i class="fa fa-solid fa-house"></i>
+        <section class="home"> 
+          <nav>
+            <a href="index.html"> <img src="res/images/logo.png"> </a>
+            <div class="nav-links" id="nav-links">
+                <span class="material-symbols-outlined" onclick="hideMenu()">close</span>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <span class="material-symbols-outlined" onclick="showMenu()">menu</span>
+          </nav>
+
+          <div class="home-text">
+            <h1> Persona Garments </h1>
+            <p> We are the best </p>
+            <a href="" class="home-btn"> Visit us to know more. </a>
+
+          </div>
+        </section>
+
+        <section class="services">
+            <h1> Services that we offer. </h1>
+            <p> Who is this and what are we doing here I am a kid</p>
+            <div class="row">
+                <div class="service-col">
+                    <h3>Service 1</h3>
+                    <p> We do this service and that as well . </p>
+                </div>
+
+                <div class="service-col">
+                    <h3>Service 2</h3>
+                    <p> We do this service and that as well . </p>
+                </div>
+
+                <div class="service-col">
+                    <h3>Service 3</h3>
+                    <p> We do this service and that as well . </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="about"> 
+           <h1> About us</h1>
+           <p> Hello blah blah blah blah blah</p>
+
+           <div class="row"> 
+            <div class="about-col">
+                <img src="res/images/pexels-cottonbro-studio-4614199.jpg" >
+                <div class="layer"> 
+                    <h3>Stiching</h3>
+                </div>
+            </div>
+            <div class="about-col">
+                <img src="res/images/pexels-2817554.jpg" >
+                <div class="layer"> 
+                    <h3>Quality work</h3>
+                </div>
+            </div>
+            <div class="about-col">
+                <img src="res/images/pexels-tembela-bohle-1884584.jpg" >
+                <div class="layer"> 
+                    <h3>Latest Designs</h3>
+                </div>
+            </div>
+           </div>
+        </section>
+
+
+
+
+
+
+
+
+        <script>
+            var navLinks=document.getElementById("nav-links");
+            
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            
+           
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+            </script>
+    </body>
+</html>
